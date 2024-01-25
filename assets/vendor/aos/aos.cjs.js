@@ -141,7 +141,7 @@ var Detector = function () {
       return this.mobile() && !this.phone();
     }
 
-    // http://browserhacks.com/#hack-acea075d0ac6954f275a70023906050c
+
 
   }, {
     key: 'ie11',
@@ -156,8 +156,8 @@ var detect = new Detector();
 
 /**
  * Adds multiple classes on node
- * @param {DOMNode} node
- * @param {array}  classes
+ @param {DOMNode} node
+ @param {array}  classes
  */
 var addClasses = function addClasses(node, classes) {
   return classes && classes.forEach(function (className) {
